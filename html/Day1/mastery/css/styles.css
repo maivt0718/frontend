@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    padding: 10px 50px;
+}
+
+.header > .title{
+    height: 100px;
+}
+
+.header > .title > i{
+    float: left;
+    font-size: 30px;
+    background-color: rgba(8, 39, 77, 0.952);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 15px 15px;
+    color: rgb(228, 228, 66);
+}
+
+.header > .title > h1{
+    margin-left: 80px;
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+.header > .nav{
+    font-size: 30px;
+    display: inline-block;
+}
+
+.header > .nav > ul{
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.header > .nav > ul > li{
+    float: left;
+    margin: 0 20px;
+}
+
+.header > .nav > ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.carousel{
+    background-image: url("../images/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    margin: 10px 0px;
+}
+
+.welcome {
+    display: inline-block;
+}
+
+.welcome > .content{
+    float: left;
+    margin: 30px 50px;
+    color: grey;
+    font-size: 30px;
+    width: 50%;
+}
+
+.welcome > .content > h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.welcome > .content > button{
+    background-color: rgb(236, 236, 10);
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 30px 0px;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    border-style: none; 
+}
+
+.welcome > .content_img{
+    margin-top: 35px;
+    height: 500px;
+}
+
+.welcome > .content_img > img{
+    width: 40%;
+    height: 100%;
+}
+
+.achievement {
+    height: 70px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding: 30px 128px;
+}
+
+.achievement > .item{
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    width: 270px;
+}
+
+
+.achievement > .item > h1{
+    float: left;
+    font-size: 60px;
+    margin-right: 10px;
+    padding-top: 0px;
+}
+
+.achievement > .item > p{
+    padding-top: 12px;
+}
+
+.subjects{
+    margin-top: 100px;
+    margin-left: 129px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.subjects > .subject_item{
+    background-color: rgba(8, 39, 77, 0.952);
+    width: 280px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.subjects > .subject_item > i{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.posts{
+    background-color: rgb(195, 223, 248);
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.posts > .title_post{
+    margin: 130px 50px;
+}
+
+.posts > .title_post{
+    float: left;
+}
+
+.posts > .title_post > .contents{
+    background-color: white;
+    width: 500px;
+    margin-top: 30px;
+    padding: 50px 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.posts > .latest > .contents img{
+    width: 180px;
+    height: 130px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.posts > .title_post > .contents h2{
+    margin-bottom: 10px;
+}
+
+.posts > .title_post > .contents p{
+    color:  grey;
+    margin-bottom: 10px;
+}
+
+.posts > .latest > .contents p:last-child{
+    opacity: 1;
+    color: rgb(93, 88, 88);
+}
+
+.posts > .latest > .contents hr{
+    margin-top: 30px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.posts > .title_post > button{
+    width: 100px;
+    height:50px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    background-color: rgb(225, 225, 87);
+    float: right;
+}
+
+.posts > .upcoming .calendar{
+    float: left;
+    margin-right: 20px;
+    height: 250px;
+}
+
+.posts > .upcoming .MMDD{
+    width: 90px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(203, 203, 12);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 10px;
+}
+
+.posts > .upcoming .YY{
+    width: 90px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(23, 23, 130);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 8px 10px;
+    color: white;
+    padding-bottom: 1px;
+}
+
+.posts > .upcoming > .contents{
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px 40px;
+    padding-bottom: 0px;
+}
+
+.posts > .upcoming > .contents p.time_location{
+    padding-left: 27%;
+    color: blue;
+}
+
+.posts > .upcoming > .contents span{
+    color: grey;
+}
+
+.footer{
+    background-color: rgba(8, 39, 77, 0.952);
+    padding: 50px;
+    padding-right: 10px;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer > .contents{
+    display: inline-block;
+}
+
+.footer > .contents > .contact_us{
+    float: left;
+    width: 40%;
+    margin-right: 50px;
+}
+
+.footer > .contents > .feature{
+    float: left;
+    margin-right: 150px;
+}
+
+.footer > .contents > .quick{
+    float: left;
+}
+
+.footer > .contents h1{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.footer > .contents > .contact_us > i{
+    color: yellow;
+    margin-top: 10px;
+}
+
+.footer > .contents > .contact_us > br{
+    margin-top: 20px;
+}
+
+.footer > .contents ul{
+    list-style: none;
+}
+
+.footer > .contents ul>li{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.footer > .contents a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer hr{
+    width: 80%;
+    margin: 30px 50px;
+    opacity: 0.2;
+}
+
+.footer span{
+    text-align: center;
+    margin-left: 45px;
+}

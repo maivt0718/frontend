@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #F8E1DB;
+    padding: 10px 40px;
+}
+
+.header > .nav{
+    margin-top: 20px;
+}
+
+.nav > li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav > li:first-child{
+    padding-left: 0%;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg {
+    background-image: url("../img/BG.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
+
+.bg > img{
+    width: 100%;
+}
+
+.carousel{
+    background-color: #efdfdf;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.carousel > img{
+    margin-bottom: 20px;
+}
+
+.carousel > p{
+    color: rgb(99, 108, 116);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.carousel > .destination{
+    margin-top: 50px;
+    display: flex;
+}
+
+.carousel > .destination > .des{
+    border-radius: 10%;
+    background-color: white;
+    flex: 1;
+    width: 25%;
+    margin: 0 20px;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.carousel > .destination > .des > p{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel > .destination > .des > button{
+    background-color: rgb(230, 227, 227);
+    color: grey;
+    border: 2px solid #e7e7e7;
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+}
+
+.carousel > .destination > .des > .des_img{
+    position: relative;
+}
+
+.carousel > .destination > .des > .des_img > img{
+    width: 80%;
+    text-align: center;
+}
+
+.carousel > .destination > .des i{
+    color: pink;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 50%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.viewall{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: orange;
+    font-size: 20px;
+    border: 1px solid orange;
+    background-color: inherit;
+}
+
+.contactus{
+    background-color: #F8E1DB;
+    display: flex;
+}
+
+.contactus > .contact_img{
+    background-image: url("../img/mask.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    padding-left: 30px;
+    flex: 1;
+}
+
+.contactus > .contact_content{
+    flex: 1;
+    padding-top: 80px;
+}
+
+.contactus > .contact_content > h2,p{
+    color: grey;
+    opacity: 2;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contactus > .contact_content > .contact_channel{
+    color: grey;
+    display: flex;
+    margin-right: 20px;
+}
+
+.contactus > .contact_content > .contact_channel > .download,.social{
+    flex: 1;
+}
+
+.contactus > .contact_content > .contact_channel h3{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #F8E1DB;
+    border-radius: 100px 100px 0px 0px;
+    color: black;
+}
+
+.footer > .content{
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.footer .section{
+    flex: 1;
+    width: 50px;    
+    font-size: 20px;
+}
+
+.footer .section:first-child{
+    flex: 2;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.footer .section:first-child > p{
+    color: black;
+}
+
+.footer .section h3{
+    margin-bottom: 20px;
+}
+
+.footer .section ul{
+    list-style: none;
+}
+
+.footer .section li{
+    margin-top: 10px;
+}
+
+.footer > p{
+    text-align: center;
+    color: black;
+}
+
